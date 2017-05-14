@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SlotsCollection>
+  <Slots>
+    <Slot SlotNumber = "Slot0">
+      <Active>true</Active>  
+      <Name>"Masmem"</Name>
+      <Class>0</Class>
+      <Level>1</Level>
+      <Experience>0</Experience>
+      <Skill1></Skill1>  
+  </Slot>
+  
+   <Slot SlotNumber = "Slot1">
+      <Active>false</Active>  
+      <Name>""</Name>
+      <Class>0</Class>
+      <Level>0</Level>
+      <Experience>0</Experience>
+      <Skill1>""</Skill1>  
+  </Slot>
+    
+   <Slot SlotNumber = "Slot2">
+      <Active>false</Active>  
+      <Name>""</Name>
+      <Class>0</Class>
+      <Level>0</Level>
+      <Experience>0</Experience>
+      <Skill1>""</Skill1>   
+  </Slot>
+    
+   <Slot SlotNumber = "Slot3">
+      <Active>false</Active>  
+      <Name>""</Name>
+      <Class>0</Class>
+      <Level>0</Level>
+      <Experience>0</Experience>
+      <Skill1>""</Skill1>  
+  </Slot>
+
+ <Slot SlotNumber = "Slot4">
+      <Active>false</Active>  
+      <Name>""</Name>
+      <Class>0</Class>
+      <Level>0</Level>
+      <Experience>0</Experience>
+      <Skill1>""</Skill1>  
+  </Slot>
+
+   <Slot SlotNumber ="Slot5">
+        <Active>false</Active>  
+        <Name>""</Name>
+        <Class>0</Class>
+        <Level>0</Level>
+        <Experience>0</Experience>
+        <Skill1>""</Skill1>  
+    </Slot>
+
+  
+  </Slots>  
+
+
+
+</SlotsCollection>
