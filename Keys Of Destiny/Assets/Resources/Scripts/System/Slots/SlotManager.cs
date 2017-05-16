@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SlotLoader : MonoBehaviour {
-    public const string path = "Slots";
+public class SlotManager : MonoBehaviour {
+    [Header("XLM Path")]
+    public string path;
+
 
 
 	// Use this for initialization
@@ -12,7 +14,7 @@ public class SlotLoader : MonoBehaviour {
 
         foreach (Slots slot in slots.slots)
         {
-            print(slot.numSlot);
+            //print(slot.numSlot);
         }
 
 	}
@@ -21,4 +23,11 @@ public class SlotLoader : MonoBehaviour {
 	void Update () {
 		
 	}
+
+
+
+
+
+
+
 }

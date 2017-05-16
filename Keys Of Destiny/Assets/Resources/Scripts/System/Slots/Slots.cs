@@ -26,9 +26,20 @@ public class Slots{
     public int plExperience;
 
 
-    [XmlElement("Skills")]
-    public string skills;
+    [XmlElement("Ataque1")]
+    public string ataque1;
+
+    [XmlElement("Ataque2")]
+    public string ataque2;
+
+    [XmlElement("Skill1")]
+    public string skill1;
+
+    [XmlElement("Skill2")]
+    public string skill2;
 
 
-    
+
+
+
 }
