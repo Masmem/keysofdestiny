@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ClassesCollection>
+  <Classes>
+      <Classe CodeClasse= "0">
+        <NomeClasse>Lunarian</NomeClasse>
+        <Ativo>true</Ativo>
+      </Classe>  
+    
+    <Classe CodeClasse="1">
+      <NomeClasse>Barbarian</NomeClasse>
+        <Ativo>true</Ativo>
+      </Classe> 
+  
+     <Classe CodeClasse= "2">
+       <NomeClasse>Pyromancer</NomeClasse> 
+         <Ativo>false</Ativo>
+      </Classe>  
+    
+    <Classe CodeClasse="3">
+        <NomeClasse>Necromancer</NomeClasse>
+        <Ativo>false</Ativo>
+      </Classe> 
+    
+     <Classe CodeClasse= "4">
+        <NomeClasse>Monk</NomeClasse>
+        <Ativo>false</Ativo>
+      </Classe>  
+    
+    <Classe CodeClasse="5">
+        <NomeClasse>ShieldMaster</NomeClasse>
+       <Ativo>false</Ativo>
+      </Classe> 
+  
+     <Classe CodeClasse= "6">
+       <NomeClasse>Paladin</NomeClasse>
+        <Ativo>false</Ativo>
+      </Classe>  
+    
+    <Classe CodeClasse="7">
+        <NomeClasse>BlackSmith</NomeClasse> 
+       <Ativo>false</Ativo>
+      </Classe> 
+  
+    
+  
+  
+  
+
+ <Classe CodeClasse= "8">
+        <NomeClasse>Druid</NomeClasse>
+        <Ativo>false</Ativo>
+      </Classe>  
+    
+    <Classe CodeClasse="9">
+        <NomeClasse>Ent</NomeClasse>
+        <Ativo>false</Ativo>   
+      </Classe> 
+  
+     <Classe CodeClasse= "10">
+        <NomeClasse>Cleric</NomeClasse> 
+        <Ativo>false</Ativo>
+      </Classe>  
+    
+    <Classe CodeClasse="11">
+        <NomeClasse>Weaponmaster</NomeClasse> 
+       <Ativo>false</Ativo>
+      </Classe> 
+    
+     <Classe CodeClasse= "12">
+        <NomeClasse>Hunter</NomeClasse>
+        <Ativo>false</Ativo>
+      </Classe>  
+    
+    <Classe CodeClasse="13">
+        <NomeClasse>Alquimist</NomeClasse> 
+       <Ativo>false</Ativo>
+      </Classe> 
+  
+     <Classe CodeClasse= "14">
+        <NomeClasse>Bard</NomeClasse> 
+        <Ativo>false</Ativo>
+      </Classe>  
+    
+    <Classe CodeClasse="15">
+        <NomeClasse>Constructor</NomeClasse>
+       <Ativo>false</Ativo>
+      </Classe> 
+
+   </Classes>  
+
+
+</ClassesCollection>

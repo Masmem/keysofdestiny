@@ -16,7 +16,9 @@ public class SlotsContainer {
     public static SlotsContainer Load(string path)
     {
         TextAsset xmlFile = Resources.Load<TextAsset>(path);
-        Debug.Log(xmlFile);
+        //StreamReader xmlFile = File.OpenText(Application.dataPath.ToString() + path);
+        //Resources.Load("Script/" + path);
+       // Debug.Log(xmlFile);
         XmlSerializer serializer = new XmlSerializer(typeof(SlotsContainer));
         StringReader reader = new StringReader(xmlFile.text);
 
@@ -25,7 +27,7 @@ public class SlotsContainer {
 
         reader.Close();
 
-
+      
         return slots;
     }
 	
