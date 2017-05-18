@@ -7,6 +7,8 @@ public class ClassList : MonoBehaviour {
     public string path;
     public GameObject classePrefab;
 
+    private int count = 0;
+
 
     private ToggleGroup groupClasses;
 
@@ -18,6 +20,9 @@ public class ClassList : MonoBehaviour {
 
         foreach (Classes classe in classes.classes)
         {
+           
+        
+
             GameObject classeSlot = Instantiate(classePrefab, this.gameObject.transform);
             classeSlot.transform.SetParent(this.transform);
             Toggle tgClasse = classeSlot.GetComponent<Toggle>();
@@ -27,6 +32,12 @@ public class ClassList : MonoBehaviour {
             {
                 tgClasse.interactable = false;
             }
+            if (count == 0)
+            {
+                tgClasse.isOn = true;
+               
+            }
+            count++;
         }
 
 	}
