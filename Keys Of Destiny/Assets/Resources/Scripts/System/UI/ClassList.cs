@@ -23,6 +23,10 @@ public class ClassList : MonoBehaviour {
             Toggle tgClasse = classeSlot.GetComponent<Toggle>();
             tgClasse.group = groupClasses;
             tgClasse.GetComponentInChildren<Text>().text = classe.clName.ToString();
+            if (!classe.isActivated)
+            {
+                tgClasse.interactable = false;
+            }
         }
 
 	}
