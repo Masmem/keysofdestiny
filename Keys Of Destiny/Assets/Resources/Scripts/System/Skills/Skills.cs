@@ -16,7 +16,7 @@ public class Skills {
     [XmlElement("CodClasse")]
     public string codClasse;
 
-    [XmlElement("descSkill")]
+    [XmlElement("DescSkill")]
     public string descSkill;
 
 

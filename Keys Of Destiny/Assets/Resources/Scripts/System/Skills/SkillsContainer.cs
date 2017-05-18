@@ -10,8 +10,14 @@ public class SkillsContainer {
 
 
     [XmlArray("Skills")]
-
-
+    [XmlArrayItem("AtaqueBasico")]
+    public List<Skills> ataqueBasicos = new List<Skills>();
+    [XmlArrayItem("AtaqueSecundario")]
+    public List<Skills> ataqueSecundarios = new List<Skills>();
+    [XmlArrayItem("Skill")]
+    public List<Skills> skills = new List<Skills>();
+    [XmlArrayItem("SkillMovement")]
+    public List<Skills> skillsMovement = new List<Skills>();
 
 
     public static SkillsContainer Load(string path)
