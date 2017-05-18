@@ -72,6 +72,7 @@ GameObject:
   - component: {fileID: 224647303099187798}
   - component: {fileID: 114930081188987090}
   - component: {fileID: 114342044074454316}
+  - component: {fileID: 114983525565033864}
   m_Layer: 5
   m_Name: ClassSelect
   m_TagString: Untagged
@@ -206,7 +207,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.5514706, g: 0.5514706, b: 0.5514706, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -229,6 +230,18 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!114 &114983525565033864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709586895775224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f4c28847f9e20a41a12457b2f375cd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: xml/Skills
 --- !u!222 &222031441632406930
 CanvasRenderer:
   m_ObjectHideFlags: 1
