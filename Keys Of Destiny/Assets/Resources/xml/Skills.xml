@@ -1,58 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SkillsCollection>
   <Skills>
-    <Skill CodSkill="0">
+    
+    <AtaqueBasico CodSkill="0">
       <CodClasse>0</CodClasse>
       <DescSkill>Ataque básico incial do Lunarian</DescSkill>
       
-    </Skill>
-    
-    <Skill CodSkill="1">
+    </AtaqueBasico>
+
+    <AtaqueBasico CodSkill="1">
       <CodClasse>0</CodClasse>
       <DescSkill>Segundo taque básico do Lunarian</DescSkill>
-    </Skill>       
+    </AtaqueBasico>       
  
 
  
-    <Skill CodSkill="0">
+    <AtaqueSecundario CodSkill="0">
       <CodClasse>0</CodClasse>
       <DescSkill>Ataque secunpdario incial do Lunarian</DescSkill>
 
-    </Skill>
+    </AtaqueSecundario>
 
-    <Skill CodSkill="1">
+    <AtaqueSecundario CodSkill="1">
       <CodClasse>0</CodClasse>
       <DescSkill>Segunda opção de ataque secundario do Lunarian</DescSkill>
-    </Skill>
+    </AtaqueSecundario>
     
 
 
 
-    <Skill CodSkill="0">
+    <Skill CodSkill="4">
       <CodClasse>0</CodClasse>
       <DescSkill>Skill básica incial do Lunarian</DescSkill>
 
     </Skill>
 
-    <Skill CodSkill="1">
+    <Skill CodSkill="5">
       <CodClasse>0</CodClasse>
       <DescSkill>Segunda Skill do Lunarian</DescSkill>
     </Skill>
- 
 
 
-     <Skill CodSkill="0">
+
+    <SkillMovement CodSkill="6">
       <CodClasse>0</CodClasse>
       <DescSkill>Skil de movimento incial do Lunarian</DescSkill>
       
-    </Skill>
+    </SkillMovement>
     
-    <Skill CodSkill="1">
+    <SkillMovement CodSkill="7">
       <CodClasse>0</CodClasse>
       <DescSkill>Sugunda skil de movimento do Lunarian</DescSkill>
-    </Skill>
+    </SkillMovement>
     
-  </Skills>
+  
+</Skills>
     
  
 </SkillsCollection>
