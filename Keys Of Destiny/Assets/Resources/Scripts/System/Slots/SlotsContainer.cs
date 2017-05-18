@@ -22,7 +22,6 @@ public class SlotsContainer {
         XmlSerializer serializer = new XmlSerializer(typeof(SlotsContainer));
         StringReader reader = new StringReader(xmlFile.text);
 
-
         SlotsContainer slots = serializer.Deserialize(reader) as SlotsContainer;
 
         reader.Close();
