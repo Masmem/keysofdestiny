@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 
-
-public class SkillManager : MonoBehaviour {
+public class SkillManager : MonoBehaviour, ISelectHandler {
     public string path;
     private SkillsContainer skills;
     private Toggle tg;
+
+    private string codClasse;
 
 	// Use this for initialization
 	void Start () {
@@ -19,15 +21,12 @@ public class SkillManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (tg.isOn)
-        {
-            Testando("1");
-        }
+
 		
 	}
 
 
-    public void Testando(string codeClass)
+    public void TrocarSkills(string codeClass)
     {
         foreach(Skills skill in skills.ataqueBasicos)
         {
@@ -35,8 +34,28 @@ public class SkillManager : MonoBehaviour {
         }
     }
 
-
     
 
+    public void OnSelect(BaseEventData eventData)
+    {
+       GetComponentInParent<ClassList>().TrocarSkills(CodClasse);
+    }
+
+
+    public string CodClasse
+    {
+        get
+        {
+            return codClasse;
+        }
+
+        set
+        {
+            codClasse = value;
+        }
+
+
+
+    }
 
 }

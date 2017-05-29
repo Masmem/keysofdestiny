@@ -9,15 +9,22 @@ using System.IO;
 public class SkillsContainer {
 
 
-    [XmlArray("Skills")]
+    [XmlArray("AtaquesBasico")]
     [XmlArrayItem("AtaqueBasico")]
     public List<Skills> ataqueBasicos = new List<Skills>();
+
+    [XmlArray("AtaquesSecundarios")]
     [XmlArrayItem("AtaqueSecundario")]
     public List<Skills> ataqueSecundarios = new List<Skills>();
+
+    [XmlArray("Skills")]
     [XmlArrayItem("Skill")]
     public List<Skills> skills = new List<Skills>();
+
+    [XmlArray("SkillsMovement")]
     [XmlArrayItem("SkillMovement")]
     public List<Skills> skillsMovement = new List<Skills>();
+    
 
 
     public static SkillsContainer Load(string path)

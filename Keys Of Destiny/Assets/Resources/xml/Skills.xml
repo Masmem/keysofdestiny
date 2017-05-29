@@ -1,60 +1,165 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SkillsCollection>
-  <Skills>
-    
+
+  <!-- ============================ATAQUES BÁSICOS =====================-->
+  <AtaquesBasico>
+
+    <!-- ============================LUNARIAN=====================-->   
     <AtaqueBasico CodSkill="0">
+      <NomeSkill>Lunares</NomeSkill>
       <CodClasse>0</CodClasse>
       <DescSkill>Ataque básico incial do Lunarian</DescSkill>
       
     </AtaqueBasico>
 
     <AtaqueBasico CodSkill="1">
+      <NomeSkill>Moontrace</NomeSkill>
       <CodClasse>0</CodClasse>
+      
       <DescSkill>Segundo taque básico do Lunarian</DescSkill>
-    </AtaqueBasico>       
- 
+    </AtaqueBasico>
 
- 
-    <AtaqueSecundario CodSkill="0">
+
+
+    <!-- ============================BARBARIAN=====================-->
+    
+      <AtaqueBasico CodSkill="3">
+      <NomeSkill>Machadada</NomeSkill>
+      <CodClasse>1</CodClasse>
+      <DescSkill>Ataque básico incial do Barbarian</DescSkill>
+      
+    </AtaqueBasico>
+
+    
+    
+    <AtaqueBasico CodSkill="4">
+      <NomeSkill>Machado Voador</NomeSkill>
+      <CodClasse>1</CodClasse>
+      
+      <DescSkill>Segundo taque básico do Barbarian</DescSkill>
+    </AtaqueBasico>
+      
+      
+      
+  </AtaquesBasico>
+
+<!-- ============================ATAQUES SECUNDÁRIOS=====================-->
+  
+ <AtaquesSecundarios>
+   <!-- ============================LUNARIAN=====================-->
+   <AtaqueSecundario CodSkill="0">
+       <NomeSkill>Moonshield</NomeSkill>
       <CodClasse>0</CodClasse>
       <DescSkill>Ataque secunpdario incial do Lunarian</DescSkill>
 
     </AtaqueSecundario>
 
     <AtaqueSecundario CodSkill="1">
-      <CodClasse>0</CodClasse>
-      <DescSkill>Segunda opção de ataque secundario do Lunarian</DescSkill>
-    </AtaqueSecundario>
+    <NomeSkill>MoonStar</NomeSkill>
+    <CodClasse>0</CodClasse>
     
+      <DescSkill>??????????????????</DescSkill>
+    </AtaqueSecundario>
 
+   <!-- ============================BARBARIAN=====================-->
+   <AtaqueSecundario CodSkill="2">
+     <NomeSkill>??????????</NomeSkill>
+     <CodClasse>1</CodClasse>
+     <DescSkill>??????????</DescSkill>
 
+   </AtaqueSecundario>
 
-    <Skill CodSkill="4">
+   <AtaqueSecundario CodSkill="3">
+     <NomeSkill>?????????????</NomeSkill>
+     <CodClasse>1</CodClasse>
+
+     <DescSkill>??????????????????</DescSkill>
+   </AtaqueSecundario>
+    
+  </AtaquesSecundarios>
+
+  <!-- ============================SKILLS=====================-->
+    
+    <Skills>
+
+      <!-- ============================LUNARIAN=====================-->
+   <Skill CodSkill="4">
+      <NomeSkill>Moonlight</NomeSkill>
       <CodClasse>0</CodClasse>
       <DescSkill>Skill básica incial do Lunarian</DescSkill>
 
     </Skill>
 
     <Skill CodSkill="5">
+      <NomeSkill>Moon</NomeSkill>
       <CodClasse>0</CodClasse>
+      
       <DescSkill>Segunda Skill do Lunarian</DescSkill>
     </Skill>
 
+      <!-- ============================BARBARIAN=====================-->
+
+      <Skill CodSkill="4">
+        <NomeSkill>????????????</NomeSkill>
+        <CodClasse>1</CodClasse>
+        <DescSkill>???????????????????</DescSkill>
+
+      </Skill>
+
+      <Skill CodSkill="5">
+        <NomeSkill>???????????????</NomeSkill>
+        <CodClasse>1</CodClasse>
+
+        <DescSkill>??????????????????</DescSkill>
+      </Skill>
+      
+      
+      
+</Skills>
 
 
-    <SkillMovement CodSkill="6">
+
+  <!-- ============================SKILLS MOVEMENTS=====================-->  
+  <SkillsMovement>
+
+    <!-- ============================LUNARIAN=====================-->
+  <SkillMovement CodSkill="6">
+    
+        <NomeSkill>moon</NomeSkill>
       <CodClasse>0</CodClasse>
+    
       <DescSkill>Skil de movimento incial do Lunarian</DescSkill>
       
     </SkillMovement>
     
     <SkillMovement CodSkill="7">
+       <NomeSkill>Moon</NomeSkill>
       <CodClasse>0</CodClasse>
+     
       <DescSkill>Sugunda skil de movimento do Lunarian</DescSkill>
     </SkillMovement>
+    <!-- ============================BARBARIAN=====================-->
+
+    <SkillMovement CodSkill="6">
+
+      <NomeSkill>????????</NomeSkill>
+      <CodClasse>1</CodClasse>
+
+      <DescSkill>???????????????</DescSkill>
+
+    </SkillMovement>
+
+    <SkillMovement CodSkill="7">
+      <NomeSkill>????????????????</NomeSkill>
+      <CodClasse>1</CodClasse>
+
+      <DescSkill>?????????????????</DescSkill>
+    </SkillMovement>
+    
+    
+  </SkillsMovement>
+    
     
   
-</Skills>
-    
  
 </SkillsCollection>
