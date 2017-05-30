@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PressToContinue : MonoBehaviour {
 
 	// Use this for initialization
@@ -11,6 +11,9 @@ public class PressToContinue : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if (Input.anyKey)
+        {
+            SceneManager.LoadScene(2);
+        }
 	}
 }
