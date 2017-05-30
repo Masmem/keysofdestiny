@@ -30,7 +30,7 @@ public class Intro : MonoBehaviour {
         yield return new WaitForSeconds(intro.duration);
         FadeUi.FadeOut(fade, tempoFedeOut);
         yield return new WaitForSeconds(tempoFedeOut);
-        SceneManager.LoadScene("FirstScreen");
+        SceneManager.LoadScene(1);
     }
    
 
